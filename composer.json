@@ -1,0 +1,27 @@
+{
+    "name": "rlinaresdev/skins",
+    "description": "Biblioteca de Plantillas",
+    "keywords": ["laravel, library, theme, template, plantilla"],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Ing. Ramón A Linares Febles",
+            "email": "rlinares4381@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "Malla\\Skin\\": "/",
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
