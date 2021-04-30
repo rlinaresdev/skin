@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+body{
+  background: #f0f0f0;
+  color: #777;
+
+}
+
+.auth {
+   max-width: 380px;
+   margin: auto;
+}

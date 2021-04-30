@@ -24,6 +24,8 @@ class SkinServiceProvider extends ServiceProvider {
     $this->app->bind("Skin", function($app){
       return new \Malla\Skin\Support\Store($app);
     });
+
+		$this->app["skin"] = Skin::app();
 	}
 
 	public function getGrammars($locale="es") {

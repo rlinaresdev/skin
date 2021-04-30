@@ -10,5 +10,5 @@ namespace Malla\Skin\Facade;
 use Illuminate\Support\Facades\Facade;
 
 class Skin extends Facade {
-  public static function getFacadeAccessor(){return "Skin}";}
+  public static function getFacadeAccessor(){return "Skin";}
 }

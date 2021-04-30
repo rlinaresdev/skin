@@ -22,7 +22,5 @@ class Kernel {
 		];
 	}
 
-	public function handler($app) {
-    
-	}
+	public function handler($app) {	}
 }
